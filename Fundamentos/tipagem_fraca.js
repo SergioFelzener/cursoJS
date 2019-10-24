@@ -13,5 +13,3 @@ let numero = 1
 let pqp = false // produto quimico perigoso ... kkk 
 
 // evite o escrito acima 
-
-
