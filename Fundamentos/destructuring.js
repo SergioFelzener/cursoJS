@@ -1,0 +1,23 @@
+// novo recurto do ecma script 2015
+
+
+const pessoa = {
+    nome : 'ana',
+    idade : 21,
+    endereco : {
+        lagradouro : 'rua x',
+        numero : 23
+    }
+}
+
+const { nome, idade } = pessoa;
+console.log(nome,idade);
+
+const { nome: n, idade: i} = pessoa;
+console.log(n, i);
+
+const { sobrenome, bemHumorada = true } = pessoa;
+console.log (sobrenome, bemHumorada);
+
+const { endereco: {lagradouro, numero, cep } } = pessoa;
+console.log (lagradouro, numero, cep);
