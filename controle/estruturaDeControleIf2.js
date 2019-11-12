@@ -12,7 +12,10 @@ teste1(8);
 // nao usar ; no IF nao usar com as estruturas de controle;
 
 function teste2 (num) {
-    if (num > 7 );{
+    if (num > 7 ){
+        console.log(num);
 
     }
 }
+teste2(6);
+teste2(8);
