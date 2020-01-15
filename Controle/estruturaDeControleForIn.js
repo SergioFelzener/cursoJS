@@ -12,7 +12,7 @@ const pessoas = {
 }
 
 for (let atributo in pessoas ) {
-    console.log (`${atributo} = ${pessoas[atributo]}`); // `` crase template string
+    console.log (`${atributo} = ${pessoas[atributo]}`); // `` crase usa para abrir o template string
     console.log ('atributo : ' + atributo + ' = ' + pessoas[atributo]); // escrevendo do mesmo jeito acima 
 
 }

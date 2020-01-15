@@ -4,16 +4,17 @@ Number.prototype.entre = function (inicio, fim) {
 
 const imprimirResultado = function (nota) {
     if (nota.entre(9,10)) {
-        console.log('Quadro de Honra' + nota);
+        console.log('Quadro de Honra' + " " + nota);
     } else if (nota.entre(7,8.99)){
-        console.log('Aprovado' + nota);
+        console.log('Aprovado' + " " + nota);
     } else if (nota.entre(4,6.99)){
-        console.log('Recuperação' + nota);
+        console.log('Recuperação' + " " + nota);
     } else if (nota.entre(0,3.99)){
-        console.log('Reprovado' + nota);
+        console.log('Reprovado' + " " + nota);
     } else {
-        console.log('NOTA INVÁLIDA' + nota);
+        console.log('NOTA INVÁLIDA' + " " + nota);
     }
+    console.log("fim");
 }
 
 imprimirResultado(10)

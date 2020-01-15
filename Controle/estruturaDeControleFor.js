@@ -10,6 +10,8 @@ for (let i = 1; i < 10; i++){
 
 //percorrendo array notas.length tamanho do array 
 const notas = [6.7,9.4,3.3,6,8,4.3];
-for (i = 0; i < notas.length; i++){
+for (let i = 0; i < notas.length; i++){
     console.log('nota = ' + notas[i] );
+    // pode escrever da forma escrita abixo tambem 
+    console.log(`nota = ${notas[i]}`)
 }

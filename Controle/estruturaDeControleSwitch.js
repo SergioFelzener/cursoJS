@@ -2,25 +2,25 @@ const imprimirResultado = function (nota){
     switch (Math.floor(nota)) {
         case 10:
         case 9:
-            console.log ('Quadro de Honra')
-            break;
-        case 8:
-        case 7:
-            console.log ('aprovado')
+            console.log ('Quadro de Honra'); // pode usar mais de um retorno 
+            console.log ('PARABENS');
+            break; // precisa do break para nao executar os demais 
+        case 8: case 7: // pode usar na mesma linha
+            console.log ('aprovado');
             break;
         case 6:
         case 5:
-            console.log ('recuperacao')
+            console.log ('recuperacao');
             break;
         case 4:
         case 3:
         case 2.4:
         case 1:
         case 0:
-            console.log('reprovado')
+            console.log('reprovado');
             break;
         default:  
-            console.log ('nota invalida')
+            console.log ('nota invalida');
             break;
  
     }

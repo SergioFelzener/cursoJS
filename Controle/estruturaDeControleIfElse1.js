@@ -8,5 +8,5 @@ const imprimirResultado = function(nota) {
 
 imprimirResultado(10);
 imprimirResultado(4);
-imprimirResultado('epa');
+imprimirResultado('epa'); // cuidado para nao utilizar desta forma linguagem fracamente tipada JS
 
